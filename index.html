@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-center mb-lg p-md">
+        <h1 class="text-xl">🌦️ Weather App</h1>
+        <p class="text-muted mt-sm">Check weather of any city</p>
+    </header>
+
+    <!-- main -->
+    <main class="container mt-lg">
+
+        <!-- Search Card -->
+        <div class="card mb-lg">
+            <form class="flex gap-md">
+                <input id="city" class="input w-100" placeholder="Enter city name...">
+                <button class="btn btn-primary" onclick="getWeather(event)">Search</button>
+            </form>
+        </div>
+
+        <!-- Weather Result -->
+        <div id="weatherResult" class="card hidden text-center"></div>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="text-center bg-primary">
+        <h3 class="text-light mb-0">&copy; 2026 <a href="https://newthinkcybersolutions.vercel.app/"
+                target="_blank">NewThink Cyber Solutions</a>. All right resevered.</h3>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

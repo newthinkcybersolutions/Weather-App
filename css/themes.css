@@ -1,0 +1,35 @@
+:root {
+  /* Colors (Modern + Professional) */
+  --primary-color: #3898f8;      /* Sky Blue */
+  --secondary-color: #0c6b98;    /* Deep Sky */
+  --highlight-color: #facc15;    /* Sun Yellow */
+
+  --bg-color: #0c4a6e;           /* Sky Dark */
+  --card-bg: #075985;            /* Cloud Card */
+  --text-color: #e0f2fe;         /* Light Sky Text */
+  --muted-text: #bae6fd;
+  
+  /* Typography */
+  --font-main: 'Poppins', sans-serif;
+  --font-size-sm: 16px;
+  --font-size-md: 20px;
+  --font-size-lg: 26px;
+  --font-size-xl: 38px;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* Shadows */
+  --shadow-light: 0 4px 12px rgba(0,0,0,0.3);
+  --shadow-heavy: 0 15px 40px rgba(0,0,0,0.6);
+
+  /* Transition */
+  --transition: all 0.3s ease;
+}
